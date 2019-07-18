@@ -2,12 +2,12 @@
 
 ## Educational task from Circle WebAcademy
 
-*Створіть плагін before-after*.
+Створіть плагін before-after.
 
-Приклади:
-  twentytwenty https://zurb.com/playground/twentytwenty
-  Juxtapose https://juxtapose.knightlab.com/
-  image-comparison-slider https://codyhouse.co/demo/image-comparison-slider/index.html
+*Приклади*:
+  - twentytwenty https://zurb.com/playground/twentytwenty
+  - Juxtapose https://juxtapose.knightlab.com/
+  - image-comparison-slider https://codyhouse.co/demo/image-comparison-slider/index.html
 
 1. Створіть технічне завдання.
 2. Напишіть html-код для трьох слайдерів.
