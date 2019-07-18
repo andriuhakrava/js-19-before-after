@@ -1,0 +1,67 @@
+body {
+	margin: 100px;
+}
+
+.before-after {
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: hidden;
+}
+
+.before-after .img-before-wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+.before-after .img-after, .before-after .img-before {
+	display: block;
+}
+
+.before-after-handler {
+	position: absolute;
+	top: 0;
+	width: 4px;
+	background: yellow;
+	cursor: move;
+	opacity: 0.4;
+}
+
+.before-after-handler span {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid #666;
+	opacity: 0.5;
+}
+
+.before-after-handler span:hover {
+	opacity: 0.8;
+}
+
+.before-after-handler span:before,
+.before-after-handler span:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	width: 1px;
+	height: 1px;
+	border: 9px solid transparent;
+	transform: translate(-50%, -50%);
+}
+
+.before-after-handler span:before {
+	border-right-color: #666;
+	left: 15%;
+}
+
+.before-after-handler span:after {
+	border-left-color: #666;
+	left: 85%;
+}
